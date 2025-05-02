@@ -1,18 +1,17 @@
 
-This project focuses on cleaning and transforming raw datasets using SQL to prepare them for analysis. The cleaning process involves identifying and correcting issues such as missing values, duplicates, inconsistent formatting, and incorrect data types.
+This project focuses on cleaning and transforming raw datasets using SQL to prepare them for analysis. The cleaning process involves identifying and correcting missing values, duplicates, inconsistent formatting, and incorrect data types.
+
 
 The following steps were applied to clean the dataset:
 
-Removed duplicate records
+1. Removed duplicate records
 
-Handled NULL or missing values
+2. Handled NULL or missing values (if possible)
 
-Standardized text data (e.g., casing, whitespace)
+3. Standardized text data (e.g., casing, whitespace)
 
-Corrected data types (e.g., dates, numerics)
+4. Corrected data types
 
-Validated unique identifiers
+5. Normalized values (e.g., address formats, categories)
 
-Normalized values (e.g., address formats, categories)
-
-Removed outliers (if applicable)
+6. Removed outliers (if applicable)
