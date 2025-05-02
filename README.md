@@ -2,7 +2,7 @@
 This project focuses on cleaning and transforming raw datasets using SQL to prepare them for analysis. The cleaning process involves identifying and correcting missing values, duplicates, inconsistent formatting, and incorrect data types.
 
 
-The following steps were applied to clean the dataset:
+The following steps were applied to clean the dataset (layoffs.csv):
 
 1. Removed duplicate records
 
@@ -15,3 +15,8 @@ The following steps were applied to clean the dataset:
 5. Normalized values (e.g., address formats, categories)
 
 6. Removed outliers (if applicable)
+
+
+Run the SQL script (Project.sql) to clean the dataset.
+
+Final_layoffs_data.csv is the final cleaned dataset that can now be used for analysis.
